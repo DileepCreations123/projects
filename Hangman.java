@@ -16,7 +16,7 @@ public class Hangman {
         char guess;
         StringBuffer prevGuessedLetters;
         String[] myArray = new String[]{"delhi"};
-        System.out.println(" what is a capital of india");
+        System.out.println("HINT:  what is a capital of india");
         wordToGuess = myArray[(int) (Math.random() * myArray.length)];
         wordLength = wordToGuess.length();
         Remaining = wordLength;
